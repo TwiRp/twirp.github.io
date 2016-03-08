@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'sylvester',
+1 verbose cli   'natural' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'sylvester', null ]
+5 verbose cache add name=undefined spec="sylvester" args=["sylvester",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'sylvester',
+6 verbose parsed url   path: 'sylvester',
+6 verbose parsed url   href: 'sylvester' }
+7 verbose cache add [ 'natural', null ]
+8 verbose cache add name=undefined spec="natural" args=["natural",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'natural',
+9 verbose parsed url   path: 'natural',
+9 verbose parsed url   href: 'natural' }
+10 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+11 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+12 silly lockFile e286dee3-sylvester sylvester
+13 verbose addNamed [ 'sylvester', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 6839c6f5-sylvester sylvester@
+16 verbose lock sylvester@ /root/.npm/6839c6f5-sylvester.lock
+17 silly lockFile 11e60b0e-natural natural
+18 verbose addNamed [ 'natural', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 72c6aebd-natural natural@
+21 verbose lock natural@ /root/.npm/72c6aebd-natural.lock
+22 silly lockFile 6839c6f5-sylvester sylvester@
+23 error Error: EIO, open '/root/.npm/6839c6f5-sylvester.lock'
+24 error If you need help, you may report this log at:
+24 error     <http://github.com/isaacs/npm/issues>
+24 error or email it to:
+24 error     <npm-@googlegroups.com>
+25 error System Linux 3.4.0+
+26 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "sylvester" "natural"
+27 error cwd /mnt/c/users/miwallio/Development/twirp.github.io
+28 error node -v v0.10.25
+29 error npm -v 1.3.10
+30 error path /root/.npm/6839c6f5-sylvester.lock
+31 error code EIO
+32 error errno 55
+33 verbose exit [ 55, true ]
