@@ -10,17 +10,17 @@
   .container a {
     text-decoration: none; }
   .container a:link {
-    color: #34b9d6; }
+    color: #f60970; }
   .container a:visited {
-    color: #34b9d6; }
+    color: #a10648; }
   .container a:hover {
     text-decoration: underline;
-    color: #176373; }
+    color: #7b0438; }
 
 .pure-menu li a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #34b9d6; }
+  background-color: #f60970; }
 
 a {
   transition: color .3s, background-color .3s;
