@@ -3,8 +3,14 @@ layout: default
 title: Projects - TwiRpin Around
 ---
 
-## [Random Heuristics for Mail](http://rhm.twirp.in)
+## [ultheme parser](https://github.com/TwiRp/ultheme-vala)
 
-We believe [e-mail isn't broken](http://singularityhub.com/2015/08/17/why-email-is-broken-and-what-will-replace-it/).  The way we interact with e-mail is.  There's [paradigms](http://www.43folders.com/izero) for how to interact with your e-mail, and there's applications that help you do that, but it's all too much.
+A way to convert [Ulysses Themes](https://styles.ulysses.app/themes) to [Markdown](https://daringfireball.net/projects/markdown) focused [GtkSourceView Style Schemes](https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes).
 
-My app shouldn't be handling these tasks, my mail server should.  RHM is a set of test scripts that play with our e-mails to make our lives more fun.
+This is primarily used for [ThiefMD](https://thiefmd.com).
+
+## [ThiefMD](https://thiefmd.com)
+
+A Markdown editor built for making large documents (like Novels or dissertations). Break up your writing into manageable chunks, and use the Export tool to put it all together as Markdown, PDF, HTML, DocX, and more.
+
+It's [built on open source](https://github.com/kmwallio/thiefmd#acknowledgments), so feel free to help us make it better.
